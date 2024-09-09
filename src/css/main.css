@@ -8,7 +8,82 @@ a {
   color: inherit;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 img,
 video {
   display: block;
+}
+
+.button,
+.menu {
+  border-radius: 32px;
+  background: #fff;
+}
+
+.button {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar {
+  display: flex;
+  align-items: flex-start;
+}
+
+body {
+  background: #e9e9e9;
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding-bottom: 1013px;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  width: 1728px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.burger-menu a {
+  width: 30px;
+  height: 34.286px;
+  flex-shrink: 0;
+}
+
+.toolbar a img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
